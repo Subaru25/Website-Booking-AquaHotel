@@ -147,7 +147,8 @@
                                 die("Can't connect: ".mysqli_connect_error());
                             }
 
-                            $sql="INSERT INTO `bill`(`b_name`, `b_email`, `b_address`, `b_city`, `b_state`, `b_n_card`, `b_creditno`, `b_exp_mnth`, `b_exp_yr`, `b_cvv`) VALUES ('$bname','$bemail','$baddress','$bcity','$bstate','$bncard','$bcreditno','$bexpmnth','$bexpyr','$bcvv')";
+                $sql="INSERT INTO `bill`(`b_name`, `b_email`, `b_address`, `b_city`, `b_state`, `b_n_card`, `b_creditno`, `b_exp_mnth`, `b_exp_yr`, `b_cvv`) VALUES 
+                ('$bname','$bemail','$baddress','$bcity','$bstate','$bncard','$bcreditno','$bexpmnth','$bexpyr','$bcvv')";
                                          if(mysqli_query($conn,$sql))
                                             echo "<script>alert('bill inserted')</script>";
                                         else
@@ -238,10 +239,13 @@
                             if ($_SERVER['HTTP_REFERER']=="http://localhost/Roberto-Hotel/room.php") {
                               $uid=$_GET['userid'];
                             }
-                            else
-                            {
-                              $uid=$_GET['uidfromdelete'];
-                            }
+                            if (isset($_GET['uidfromdelete'])) {
+                              $uid = $_GET['uidfromdelete'];
+                          } else {
+                              // Nếu không tồn tại, có thể gán một giá trị mặc định hoặc xử lý khác
+                              $uid = null; // hoặc $uid = "default_value";
+                          }
+                          
                         ?>
 <div class="row" style="width: 100%;">
   <div class="col-75">
