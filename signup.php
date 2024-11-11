@@ -73,7 +73,8 @@
                                 die("Can't connect: ".mysqli_connect_error());
                             }
 
-                            $sql="INSERT INTO signup(firstname,lastname,email,password,dob,type,gender,security_q1,security_a1,user_dac,user_laa) VALUES ('$fname','$sname','$email','$password','$dob','1','$gender','Your favourite food?','$yourfav','$dac','$laa')";
+                            $sql="INSERT INTO signup(firstname,lastname,email,password,dob,type,gender,security_q1,security_a1,user_dac,user_laa) VALUES 
+                            ('$fname','$sname','$email','$password','$dob','1','$gender','Your favourite food?','$yourfav','$dac','$laa')";
                                          if(mysqli_query($conn,$sql))
                                             echo "<script>alert('data inserted')</script>";
                                         else
