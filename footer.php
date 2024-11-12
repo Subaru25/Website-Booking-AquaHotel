@@ -11,11 +11,11 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-80">
                             <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="img/core-img/logo2.png" alt=""></a>
+                            <img src="./img/core-img/footerAqua.png" style="height: 120px; width: 240px; margin-left:-50px;" alt="">
 
-                            <h4>+12 345-678-9999</h4>
-                            <span>Info.colorlib@gmail.com</span>
-                            <span>856 Cordia Extension Apt. 356, Lake Deangeloburgh, South Africa</span>
+                            <h4>0383616974</h4>
+                            <span>tunggmph50566@gmail.com</span>
+                            <span>545 Phạm Văn Đồng - Bắc Từ Liêm - Hà Nội</span>
                         </div>
                     </div>
 
@@ -27,15 +27,11 @@
 
                             <!-- Single Blog Area -->
                             <div class="latest-blog-area">
-                                <a href="#" class="post-title">Freelance Design Tricks How</a>
-                                <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> Jan 02, 2019</span>
+                                <a href="#" class="post-title">Dự án 1 của nhóm 4</a>
+                                <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i>HK Fall2024 Block2</span>
                             </div>
 
-                            <!-- Single Blog Area -->
-                            <div class="latest-blog-area">
-                                <a href="#" class="post-title">Free Advertising For Your Online</a>
-                                <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> Jan 02, 2019</span>
-                            </div>
+                         
                         </div>
                     </div>
 
@@ -81,7 +77,7 @@
                         <!-- Copywrite Text -->
                         <div class="copywrite-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Nhóm 3 dự án 1 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">TungSubaru - PhuongThao - TruongDucToan</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>

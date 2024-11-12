@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Roberto - Hotel &amp; Resort HTML Template</title>
+    <title>Aqua Hotel &amp; Resort HTML Template</title>
 
     <!-- Favicon -->
     <link rel="icon" href="./img/core-img/favicon.png">
@@ -53,7 +53,7 @@
                             <div class="col-12">
                                 <div class="welcome-text text-center">
                                     <h6 data-animation="fadeInLeft" data-delay="200ms">Hotel &amp; Resort</h6>
-                                    <h2 data-animation="fadeInLeft" data-delay="500ms">Welcome To Roberto</h2>
+                                    <h2 data-animation="fadeInLeft" data-delay="500ms">Welcome To Aqua Hotel</h2>
                                     <a href="#" class="btn roberto-btn btn-2" data-animation="fadeInLeft" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                             <div class="col-12">
                                 <div class="welcome-text text-center">
                                     <h6 data-animation="fadeInUp" data-delay="200ms">Hotel &amp; Resort</h6>
-                                    <h2 data-animation="fadeInUp" data-delay="500ms">Welcome To Roberto</h2>
+                                    <h2 data-animation="fadeInUp" data-delay="500ms">Welcome To Aqua Hotel</h2>
                                     <a href="#" class="btn roberto-btn btn-2" data-animation="fadeInUp" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                             <div class="col-12">
                                 <div class="welcome-text text-center">
                                     <h6 data-animation="fadeInDown" data-delay="200ms">Hotel &amp; Resort</h6>
-                                    <h2 data-animation="fadeInDown" data-delay="500ms">Welcome To Roberto</h2>
+                                    <h2 data-animation="fadeInDown" data-delay="500ms">Welcome To Aqua Hotel</h2>
                                     <a href="#" class="btn roberto-btn btn-2" data-animation="fadeInDown" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -167,12 +167,12 @@
                     <!-- Section Heading -->
                     <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
                         <h6>About Us</h6>
-                        <h2>Welcome to <br>Roberto Hotel Luxury</h2>
+                        <h2>Welcome to <br>Aqua Hotel Luxury</h2>
                     </div>
                     <div class="about-us-content mb-100">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a perfect stay no matter where your destination.</h5>
-                        <p class="wow fadeInUp" data-wow-delay="400ms">Manager: <span>Michen Taylor</span></p>
-                        <img src="img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms">
+                        <h5 class="wow fadeInUp" data-wow-delay="300ms">Aqua Hotel là một điểm đến sang trọng và tinh tế, tọa lạc tại vị trí đắc địa gần trung tâm thành phố, thuận tiện cho cả du khách đi công tác lẫn nghỉ dưỡng. Khách sạn được thiết kế hiện đại với phong cách kiến trúc mang hơi thở biển cả, tạo nên không gian thoải mái và thư giãn</h5>
+                        <p class="wow fadeInUp" data-wow-delay="400ms">Manager: <span>TungSubaru</span></p>
+                        <!-- <img src="img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms"> -->
                     </div>
                 </div>
 
@@ -252,11 +252,11 @@
 
                 <!-- Content -->
                 <div class="room-content">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Premium King Room</h2>
-                    <h3 data-animation="fadeInUp" data-delay="300ms">400$ <span>/ Day</span></h3>
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Phương Thảo Hotel</h2>
+                    <h3 data-animation="fadeInUp" data-delay="300ms">200$ <span>/ Day</span></h3>
                     <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 30 ft</span></li>
-                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 5</span></li>
+                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 20m2</span></li>
+                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 4</span></li>
                         <li><span><i class="fa fa-check"></i> Bed</span> <span>: King Beds</span></li>
                         <li><span><i class="fa fa-check"></i> Services</span> <span>: Wifi, Television, Bathroom</span></li>
                     </ul>
@@ -271,11 +271,11 @@
 
                 <!-- Content -->
                 <div class="room-content">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Best King Room</h2>
-                    <h3 data-animation="fadeInUp" data-delay="300ms">125$ <span>/ Day</span></h3>
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Khách sạn cầu giấy</h2>
+                    <h3 data-animation="fadeInUp" data-delay="300ms">200$ <span>/ Day</span></h3>
                     <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 30 ft</span></li>
-                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 5</span></li>
+                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 20m2</span></li>
+                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 4</span></li>
                         <li><span><i class="fa fa-check"></i> Bed</span> <span>: King Beds</span></li>
                         <li><span><i class="fa fa-check"></i> Services</span> <span>: Wifi, Television, Bathroom</span></li>
                     </ul>
@@ -300,15 +300,16 @@
                 <div class="col-12 col-md-6">
                     <!-- Section Heading -->
                     <div class="section-heading">
-                        <h6>Testimonials</h6>
-                        <h2>Our Guests Love Us</h2>
+                        <h6>Lời chứng thực</h6>
+                        <h2>Khách hàng yêu mến chúng tôi</h2>
                     </div>
                     <!-- Testimonial Slide -->
                     <div class="testimonial-slides owl-carousel mb-100">
 
                         <!-- Single Testimonial Slide -->
                         <div class="single-testimonial-slide">
-                            <h5>“This can be achieved by applying search engine optimization or popularly known as SEO. This is a marketing strategy which increases the quality and quantity of traffic flow to a particular website via search engines.”</h5>
+                            <h5>“
+                            Khách sạn Aqua Hotel luôn nhận được những đánh giá tích cực từ khách hàng nhờ vào chất lượng dịch vụ tuyệt vời và không gian lưu trú thoải mái. Nhiều khách hàng đã bày tỏ sự hài lòng với đội ngũ nhân viên thân thiện, chuyên nghiệp và sẵn sàng hỗ trợ mọi yêu cầu của khách. Các phòng nghỉ được trang bị hiện đại, sạch sẽ, tạo cảm giác ấm cúng như ở nhà.”</h5>
                             <div class="rating-title">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -323,7 +324,8 @@
 
                         <!-- Single Testimonial Slide -->
                         <div class="single-testimonial-slide">
-                            <h5>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus delectus facilis molestias, error vitae praesentium quos eaque qui ea, tempore blanditiis sint reprehenderit, quaerat. Commodi ab architecto sit suscipit exercitationem!”</h5>
+                            <h5>“
+                            Khách sạn Aqua Hotel luôn nhận được những đánh giá tích cực từ khách hàng nhờ vào chất lượng dịch vụ tuyệt vời và không gian lưu trú thoải mái. Nhiều khách hàng đã bày tỏ sự hài lòng với đội ngũ nhân viên thân thiện, chuyên nghiệp và sẵn sàng hỗ trợ mọi yêu cầu của khách. Các phòng nghỉ được trang bị hiện đại, sạch sẽ, tạo cảm giác ấm cúng như ở nhà.”</h5>
                             <div class="rating-title">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -338,7 +340,8 @@
 
                         <!-- Single Testimonial Slide -->
                         <div class="single-testimonial-slide">
-                            <h5>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ex quos. Alias a rem maiores, possimus dicta sit distinctio quis iusto!”</h5>
+                            <h5>“
+                            Khách sạn Aqua Hotel luôn nhận được những đánh giá tích cực từ khách hàng nhờ vào chất lượng dịch vụ tuyệt vời và không gian lưu trú thoải mái. Nhiều khách hàng đã bày tỏ sự hài lòng với đội ngũ nhân viên thân thiện, chuyên nghiệp và sẵn sàng hỗ trợ mọi yêu cầu của khách. Các phòng nghỉ được trang bị hiện đại, sạch sẽ, tạo cảm giác ấm cúng như ở nhà.”</h5>
                             <div class="rating-title">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -353,7 +356,8 @@
 
                         <!-- Single Testimonial Slide -->
                         <div class="single-testimonial-slide">
-                            <h5>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi laboriosam fugit suscipit aspernatur, minima minus voluptatum, id ab atque similique ex earum. Magni.”</h5>
+                            <h5>“
+                            Khách sạn Aqua Hotel luôn nhận được những đánh giá tích cực từ khách hàng nhờ vào chất lượng dịch vụ tuyệt vời và không gian lưu trú thoải mái. Nhiều khách hàng đã bày tỏ sự hài lòng với đội ngũ nhân viên thân thiện, chuyên nghiệp và sẵn sàng hỗ trợ mọi yêu cầu của khách. Các phòng nghỉ được trang bị hiện đại, sạch sẽ, tạo cảm giác ấm cúng như ở nhà.”</h5>
                             <div class="rating-title">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -500,12 +504,12 @@
                         <a href="#" class="post-thumbnail"><img src="img/bg-img/2.jpg" alt=""></a>
                         <!-- Post Meta -->
                         <div class="post-meta">
-                            <a href="#" class="post-date">Jan 02, 2019</a>
+                            <a href="#" class="post-date">13/11/2024</a>
                             <a href="#" class="post-catagory">Event</a>
                         </div>
                         <!-- Post Title -->
-                        <a href="#" class="post-title">Learn How To Motivate Yourself</a>
-                        <p>How many free autoresponders have you tried? And how many emails did you get through using them?</p>
+                        <a href="#" class="post-title">Khám Phá Aqua Hotel – Nơi Nghỉ Dưỡng Hoàn Hảo Cho Kỳ Nghỉ Của Bạn</a>
+                        <p>Aqua Hotel là điểm đến lý tưởng cho kỳ nghỉ với không gian sang trọng, mang đến trải nghiệm nghỉ dưỡng thoải mái du khách...</p>
                         <a href="index.php" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -516,12 +520,12 @@
                         <a href="#" class="post-thumbnail"><img src="img/bg-img/3.jpg" alt=""></a>
                         <!-- Post Meta -->
                         <div class="post-meta">
-                            <a href="#" class="post-date">Jan 02, 2019</a>
+                            <a href="#" class="post-date">13/11/2024</a>
                             <a href="#" class="post-catagory">Event</a>
                         </div>
                         <!-- Post Title -->
-                        <a href="#" class="post-title">What If Let You Run The Hubble</a>
-                        <p>My point here is that if you have no clue for the answers above you probably are not operating a followup.</p>
+                        <a href="#" class="post-title">Kinh Nghiệm Đặt Phòng Tại Aqua Hotel Với Giá Tốt Nhất</a>
+                        <p>Để đặt phòng tại Aqua Hotel với giá tốt nhất, hãy theo dõi khuyến mãi, đặt sớm và sử dụng các ưu đãi thành viên...</p>
                         <a href="index.php" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -532,12 +536,12 @@
                         <a href="#" class="post-thumbnail"><img src="img/bg-img/4.jpg" alt=""></a>
                         <!-- Post Meta -->
                         <div class="post-meta">
-                            <a href="#" class="post-date">Jan 02, 2019</a>
+                            <a href="#" class="post-date">13/11/2024</a>
                             <a href="#" class="post-catagory">Event</a>
                         </div>
                         <!-- Post Title -->
-                        <a href="#" class="post-title">Six Pack Abs The Big Picture</a>
-                        <p>Some good steps to take to ensure you are getting what you need out of a autoresponder include…</p>
+                        <a href="#" class="post-title">Câu Chuyện Khách Hàng – Những Trải Nghiệm Tuyệt Vời Tại Aqua Hotel</a>
+                        <p>Khách hàng yêu thích Aqua Hotel vì dịch vụ chu đáo, không gian sang trọng và tiện ích cao cấp, tạo nên những kỷ niệm nghỉ dưỡng đáng nhớ...</p>
                         <a href="index.php" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -555,7 +559,7 @@
                     <div class="col-12 col-md-7">
                         <div class="cta-text mb-50">
                             <h2>Contact us now!</h2>
-                            <h6>Contact (+12) 345-678-9999 to book directly or for advice</h6>
+                            <h6>Contact 0383616974 to book directly or for advice</h6>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 text-right">

@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Title -->
-    <title>Roberto - Hotel &amp; Resort HTML Template</title>
+    <!-- Title --><title>Aqua Hotel &amp; Resort HTML Template</title>
 
     <!-- Favicon -->
     <link rel="icon" href="./img/core-img/favicon.png">

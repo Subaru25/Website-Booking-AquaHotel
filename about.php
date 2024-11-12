@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Roberto - Hotel &amp; Resort HTML Template</title>
+    <title>Aqua Hotel &amp; Resort HTML Template</title>
 
     <!-- Favicon -->
     <link rel="icon" href="./img/core-img/favicon.png">
@@ -64,13 +64,13 @@
                 <div class="col-12 col-lg-6">
                     <!-- Section Heading -->
                     <div class="section-heading wow fadeInUp" data-wow-delay="300ms">
-                        <h6>Testimonials</h6>
-                        <h2>20 Years Of Experience</h2>
+                        <h6>Lời chứng thực</h6>
+                        <h2>Trải nghiệm dịch vụ tuyệt vời</h2>
                     </div>
                     <div class="about-content mb-100 wow fadeInUp" data-wow-delay="500ms">
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum. Sed ut perspiciatis unde omnis iste. Lorem Ipsum available.</p>
-                        <img src="img/core-img/signature.png" alt="">
+                        <p>Aqua Hotel là một điểm đến sang trọng và tinh tế, tọa lạc tại vị trí đắc địa gần trung tâm thành phố, thuận tiện cho cả du khách đi công tác lẫn nghỉ dưỡng. Khách sạn được thiết kế hiện đại với phong cách kiến trúc mang hơi thở biển cả, tạo nên không gian thoải mái và thư giãn. Aqua Hotel tự hào mang đến cho khách hàng những phòng nghỉ tiện nghi, dịch vụ chuyên nghiệp và các tiện ích cao cấp như nhà hàng ẩm thực đa dạng, hồ bơi ngoài trời, spa chăm sóc sức khỏe, và trung tâm hội nghị hiện đại.</p>
+                        <p>Aqua Hotel cam kết mang đến sự hài lòng tuyệt đối, là lựa chọn lý tưởng cho những ai tìm kiếm sự hoàn hảo và đẳng cấp trong mỗi chuyến đi.</p>
+                        <!-- <img src="img/core-img/signature.png" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                     <div class="col-12 col-md-7">
                         <div class="cta-text mb-50">
                             <h2>Contact us now!</h2>
-                            <h6>Contact (+12) 345-678-9999 to book directly or for advice</h6>
+                            <h6>Contact 0383616974 to book directly or for advice</h6>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 text-right">

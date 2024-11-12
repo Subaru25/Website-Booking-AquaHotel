@@ -69,7 +69,10 @@
                     <nav class="classy-navbar justify-content-between" id="robertoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.php"><img src="./img/core-img/logo.png" alt=""></a>
+                        <a class="nav-brand" href="index.php">
+                        <img src="./img/core-img/LogoAqua.png" style="height: 80px; width: 150px;" alt="">
+                        </a>
+
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Roberto - Hotel &amp; Resort HTML Template</title>
+    <title>Aqua Hotel &amp; Resort HTML Template</title>
 
     <!-- Favicon -->
     <link rel="icon" href="./img/core-img/favicon.png">
@@ -62,7 +62,7 @@
                         <div class="single-contact-info">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <h4>Phone</h4>
-                            <p>+01-234-567-890</p>
+                            <p>0383616974</p>
                         </div>
                     </div>
                     <!-- Single Contact Info -->
@@ -70,7 +70,7 @@
                         <div class="single-contact-info">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <h4>Address</h4>
-                            <p>Iris Watson, 283 Fusce Rd,NY</p>
+                            <p>545 Phạm Văn Đồng - Bắc Từ Liêm - Hà Nội</p>
                         </div>
                     </div>
                     <!-- Single Contact Info -->
@@ -86,14 +86,14 @@
                         <div class="single-contact-info">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             <h4>Email</h4>
-                            <p>Info.colorlib @gmail.com</p>
+                            <p>tunggmph50566@gmail.com</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Google Maps -->
                 <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82774.69671830302!2d24.077286625210185!3d56.96328499537209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2sRiga%2C+Latvia!5e0!3m2!1sen!2sbd!4v1549536732147" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.3925426155843!2d105.77998817476998!3d21.05697848680972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2b2ece5285%3A0x43530f09d6502e52!2zNTQ1IMSQLiBQaOG6oW0gVsSDbiDEkOG7k25nLCBD4buVIE5odeG6vywgQuG6r2MgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1731436867085!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -148,7 +148,7 @@
                     <div class="col-12 col-md-7">
                         <div class="cta-text mb-50">
                             <h2>Contact us now!</h2>
-                            <h6>Contact (+12) 345-678-9999 to book directly or for advice</h6>
+                            <h6>Contact 0383616974 to book directly or for advice</h6>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 text-right">
