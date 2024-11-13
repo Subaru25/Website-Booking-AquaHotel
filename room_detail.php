@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -66,7 +69,25 @@ $conn->close();
 </head>
 
 <body>
-    <?php include "header.php"; ?>
+<?php
+        
+        if(isset($_SESSION['type']))
+        {
+            if($_SESSION['type']==0) 
+            {
+                include "header_admin.php";
+            }
+            else{
+                include "header.php";
+            }
+        }
+        else
+        {
+            include "header.php";
+        }
+        
+        
+    ?>
 
     
    
