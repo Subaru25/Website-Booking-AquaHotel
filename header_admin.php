@@ -59,7 +59,7 @@
                     <nav class="classy-navbar justify-content-between" id="robertoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index_admin.php"><img src="./img/core-img/logo.png" alt=""></a>
+                        <a class="nav-brand" href="index_admin.php"><img src="./img/core-img/LogoAqua.png" style="height: 80px; width: 150px;" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -76,6 +76,8 @@
                             <div class="classynav" style="padding: 0; float: right;">
                                 <ul id="nav">
                                     <li class="active"><a href="./index_admin.php">Home</a></li>
+
+                                    <li class="active"><a href="./edit_room_directory.php">Room Directory</a></li>
                                     
                                     <li><a href="#">Rooms</a>
                                         <ul class="dropdown">

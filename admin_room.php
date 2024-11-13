@@ -83,6 +83,8 @@
                                         <h6>Bed: <span>King beds</span></h6>
                                         <h6>Services: <span>'.$row["room_services"].'</span></h6>
                                         <a href="edit_room.php?roomid='.$row['room_id'].'" class="btn view-detail-btn">Click to edit room <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                        <a href="admin_delete_room.php?rid='.$row['room_id'].'" class="btn view-detail-btn">Click to delete room <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                        
                                     </div>
                                     </div>
                                     </div>';
