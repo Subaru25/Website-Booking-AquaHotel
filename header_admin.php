@@ -75,9 +75,15 @@
                             <!-- Nav Start -->
                             <div class="classynav" style="padding: 0; float: right;">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index_admin.php">Home</a></li>
+                                    <!-- <li class="active"><a href="./index_admin.php">Home</a></li> -->
 
-                                    <li class="active"><a href="./edit_room_directory.php">Room Directory</a></li>
+                                    <li><a href="#">Room Directory</a>
+                                        <ul class="dropdown">
+                                                <li><a href="./admin_insert_directory.php">- Add</a></li>
+                                                <li><a href="./edit_room_directory.php">- Show</a></li>
+                                            </ul>
+                                </li>
+
                                     
                                     <li><a href="#">Rooms</a>
                                         <ul class="dropdown">

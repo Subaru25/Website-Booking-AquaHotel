@@ -84,7 +84,7 @@ button:hover {
                         <td>".$row['type']."</td>
                         <td>".$row['description']."</td>
                             <td>
-                                <a href='admin_insert_directory.php?category_id=".$row['category_id']."'><button type='button'>Insert</button></a>
+                           
                                 <a href='admin_edit_directory.php?category_id=".$row['category_id']."'><button type='button'>Edit</button></a>
                                 <a href='admin_delete_directory.php?category_id=".$row['category_id']."'><button type='button'>Delete</button></a>
                             </td>
