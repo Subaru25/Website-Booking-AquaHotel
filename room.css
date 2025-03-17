@@ -1,0 +1,131 @@
+/* .room-connect */
+.room-connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.room-connect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Thumbnails hình ảnh phòng */
+.room-thumbnail img {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần thumbnail */
+    height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+    max-height: 400px; /* Giới hạn chiều cao tối đa */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Chi tiết phòng */
+.room-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Tiêu đề phòng */
+.room-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Giá phòng */
+.room-details h4 {
+    font-size: 20px;
+    color: #f39c12;
+    margin-bottom: 15px;
+}
+
+/* Loại phòng */
+.room-details h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Trạng thái phòng */
+.room-details h6 {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.room-details h6 span {
+    font-weight: normal;
+    color: #333;
+}
+
+/* Các tính năng phòng */
+.room-feature {
+    margin-top: 20px;
+}
+
+.room-feature h6 {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.room-feature h6 span {
+    font-weight: normal;
+    color: #333;
+}
+
+/* Nút đặt phòng - Chỉnh sửa màu nút */
+.view-detail-btn {
+    display: inline-block;
+    background-color: #1cc3b2; /* Thay đổi màu nền thành #1cc3b2 */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.view-detail-btn:hover {
+    background-color: #16a98e; /* Màu khi hover: giảm độ sáng một chút */
+}
+
+.view-detail-btn:active {
+    background-color: #148b7b; /* Màu khi nhấn: giảm độ sáng hơn nữa */
+}
+
+/* Đảm bảo các phòng được hiển thị theo dạng lưới */
+@media screen and (max-width: 768px) {
+    .room-connect {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .room-thumbnail {
+        margin-bottom: 15px;
+    }
+
+    .room-details {
+        margin-left: 0;
+    }
+
+    .room-details h2 {
+        font-size: 22px;
+    }
+
+    .room-details h4 {
+        font-size: 18px;
+    }
+
+    .room-details h5, .room-details h6 {
+        font-size: 14px;
+    }
+}

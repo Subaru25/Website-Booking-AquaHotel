@@ -37,6 +37,7 @@
             $rcapacity=$_POST['roomcapacity'];
             $rservices=$_POST['roomservices'];
             $rprice=$_POST['roomprice'];
+            $cid=$_POST['category_id'];
            
             
                     if(is_uploaded_file($_FILES['file']['tmp_name']))
@@ -51,8 +52,8 @@
                                 die("Can't connect: ".mysqli_connect_error());
                             }
 
-                            $sql="INSERT INTO room(room_id,room_name,room_size,room_capacity,room_services,room_price) 
-                                    VALUES ('$rno','$rname','$rsize','$rcapacity','$rservices','$rprice')";
+                            $sql="INSERT INTO room(room_id,room_name,room_size,room_capacity,room_services,room_price,category_id) 
+                                    VALUES ('$rno','$rname','$rsize','$rcapacity','$rservices','$rprice','$cid')";
                                          if(mysqli_query($conn,$sql))
                                             echo "<script>alert('Room inserted')</script>";
                                         else
@@ -71,7 +72,7 @@
                                 }
                                 else
                                 {
-                                    header("location:index_admin.php");
+                                    header("location:admin_room.php");
                                 }
                             }
                         }
@@ -104,6 +105,18 @@
                                 <label for="roomname" style="margin-bottom: 0px;">Room Name</label><br><input type="text" placeholder="Room Name" name="roomname" autofocus="autofocus" required="required" style="width:192px; height: 44px; margin-top: 0px; padding: 10px; margin-bottom: 5px; margin-right: 0px;">
                             </div>
                         </div>
+
+                                       <!-- Dropdown Danh Mục -->
+                        <label for="category_id" style="margin-bottom: 0px;">Category</label> <br>
+                        <select name="category_id" id="category_id" required style="width:100%; height: 44px; padding: 10px; margin-bottom: 10px;">
+                            <option value="" disabled selected>Select a category</option>
+                            <option value="1">Single Room</option>
+                            <option value="2">Double Room</option>
+                            <option value="3">Deluxe Room</option>
+                            <option value="4">Standard Room</option>
+                            <option value="5">Family Room</option>
+                        </select> <br><br>
+
                         <label for="roomsize" style="margin-bottom: 0px;">Room Size</label><input type="int" placeholder="Enter Room Size"  name="roomsize" required="required" style="width:100%; height: 44px; padding: 10px; margin-bottom: 5px;">
                         
                         <label for="roomcapacity" style="margin-bottom: 0px;">Room Capacity</label><input type="text" placeholder="Enter Room Capacity" name="roomcapacity" required="required"  style="width:100%; height: 44px; padding: 10px; margin-bottom:5px;">
@@ -112,6 +125,7 @@
 
                         <label for="roomprice" style="margin-bottom: 0px;">Room Price</label><input type="int" placeholder="Enter Room Price" name="roomprice" required="required" style="width:100%; height: 44px; padding: 10px; margin-bottom: 10px;">
 
+                     
                             <label for="roomphoto" style="margin-bottom: 0px;">Upload Room photo(*only jpg file)</label>
                             <input type="file" name="file"  style="width:100%; margin-bottom: 0px;"><div style="color: red;"><?php echo $err."<br>";?></div>
 

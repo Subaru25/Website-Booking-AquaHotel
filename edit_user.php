@@ -48,7 +48,7 @@
 		include "header_admin.php"
 	?>
 	<div>
-    <h5 style="color: red; display: inline-block;">Click on the name you want to edit</h5>
+    <h5 style="color: red; display: inline-block;">Chạm vào first name để edit</h5>
      <h2 style="margin-left: 235px; margin-bottom: 0;color: #1cc3b2; display: inline-block; padding: 5;">Edit Users</h2>  
     </div>
     <?php
@@ -62,19 +62,20 @@
 
 			echo "<table>
 			<tr>
-			<th>User ID</th>
+			<th>STT</th>
 			<th>First Name</th>
-			<th>Last Name</th>
+		
 			<th>Email</th>
 			<th>Gender</th>
 			<th>Type</th>
 			</tr>
 			"; 
+			$stt = 1; // Khởi tạo số thứ tự
 			while ($row=mysqli_fetch_assoc($result)) {
 				echo "<tr>
-						<td>".$row['id']."</td>
+						 <td>" . $stt++ . "</td> <!-- Hiển thị số thứ tự -->
 						<td>"."<a id='a' href="."edit.php?uid=".$row['id'].">".$row['firstname']."</a>"."</td>
-						<td>".$row['lastname']."</td>
+						
 						<td>".$row['email']."</td>
 						<td>".$row['gender']."</td>
 						<td>".$row['type']."</td>

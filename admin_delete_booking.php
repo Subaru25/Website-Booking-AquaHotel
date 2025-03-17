@@ -2,15 +2,20 @@
 <html>
 <body>
 	<?php
-	$category_id=$_GET['category_id'];
+	$room_id=$_GET['room_id'];
 	$conn=mysqli_connect("localhost","root","","hotel");
 	if(!$conn)
 	{
 		die("Can't connect".mysqli_connect_error());
 	}
-	$sql="DELETE FROM category WHERE category_id=$category_id";
+
+    $update_sql = "UPDATE room SET room_status = 'Còn phòng' WHERE room_id = '$room_id'";
+    
+	$sql="DELETE FROM thanh_toan WHERE room_id=$room_id";
+
+    
 	if (mysqli_query($conn,$sql)) {
-		header("location:edit_room_directory.php");
+		header("location:admin_room_booking.php");
 	}
 	else
 	{

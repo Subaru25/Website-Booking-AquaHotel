@@ -123,20 +123,23 @@
                                 </div>
 
                                 <!-- Book Now -->
-                                <div class="book-now-btn ml-3 ml-lg-5">
+                                <div class="book-now-btn ml-2 ml-lg-4">
                                     <a href="room.php">Book now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                 </div>
-                                 <div style=" margin: 0px; padding: 0px;"><img src="./upload/<?php echo $picname?>" style="width: 80px; height: 80px;"></div>
-                                <?php
-                                    if (isset($_SESSION['uname'])) {
-                                        echo '<p id="username">'.$_SESSION['uname'].'</p>';
-                                    }
-                                ?>
-                                 <?php
-                                    if ($flag==1) {
-                                        echo '<a href="logout.php"><img src="logout1.jpg" style="height:40px; width: 40px;"></a>';
-                                    }
-                                 ?>
+                                <div class="book-now-btn ml-2 ml-lg-1 ">
+                                    <a href="history.php">History <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                                
+                         <!-- Profile Picture and Name -->
+                         <div style="display: flex; align-items: center; margin-left: 10px;">
+                                    <img src="./upload/<?php echo htmlspecialchars($picname); ?>" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+                                    <?php if (isset($_SESSION['uname'])): ?>
+                                        <p id="username"><?php echo htmlspecialchars($_SESSION['uname']); ?></p>
+                                        <a href="logout.php" id="logout"><img src="logout1.jpg" style="height: 40px; width: 40px;" alt="Logout"></a>
+                                    <?php endif; ?>
+                                    <?php echo isset($_SESSION['firstname'], $_SESSION['lastname'])
+                                        ? htmlspecialchars($_SESSION['firstname'] . ' ' . $_SESSION['lastname'])
+                                        : ''; ?>
                                  
                             </div>
                             <!-- Nav End -->

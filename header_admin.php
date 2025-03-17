@@ -81,6 +81,7 @@
                                         <ul class="dropdown">
                                                 <li><a href="./admin_insert_directory.php">- Add</a></li>
                                                 <li><a href="./edit_room_directory.php">- Show</a></li>
+                                                
                                             </ul>
                                 </li>
 
@@ -89,14 +90,17 @@
                                         <ul class="dropdown">
                                             <li><a href="./add_room.php">- Add</a></li>
                                             <li><a href="./admin_room.php">- Show</a></li>
+                                            <li><a href="./admin_room_booking.php">- Booking</a></li>
+                                            <li><a href="./admin_comment.php">- Comment</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">User</a>
                                         <ul class="dropdown">
-                                            <li><a href="./show_user.php">- Show</a></li>
+                                            <!-- <li><a href="./show_user.php">- Show</a></li> -->
+                                            <li><a href="./edit_user.php">- Show</a></li>
                                             <li><a href="./add_user.php">- Add</a></li>
                                             <li><a href="./delete_user.php">- Delete</a></li>
-                                            <li><a href="./edit_user.php">- Edit</a></li>
+                                            
                                         </ul>
                                     </li>
                                     

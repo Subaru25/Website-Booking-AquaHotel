@@ -58,37 +58,46 @@ button:hover {
 		session_start();
 		include "header_admin.php"
 	?>
-	<h2 style="text-align:center; color: #1cc3b2;">Room Directory</h2>
+	<h2 style="text-align:center; color: #1cc3b2;">Manage Comment</h2>
     <?php
     	$conn=mysqli_connect("localhost","root","","hotel");
 		if (!$conn) {
 			die("Can't connect".mysqli_connect_error());
 		}
-		$sql="SELECT * FROM category WHERE type='1'";
+		$sql = 'SELECT room.*, signup.*, comment.*
+        FROM comment 
+        INNER JOIN signup
+        ON comment.id = signup.id
+        INNER JOIN room
+        ON comment.room_id = room.room_id';
+        // $sql = 'SELECT * FROM comment';
+
 		$result=mysqli_query($conn,$sql);
 		if (mysqli_num_rows($result)>0) {
 
 			echo "<table>
 			<tr>
-			<th>ID</th>
-			<th>Rooms</th>
-            <th>Description</th>
-           
+			<th>RoomName</th>
+			<th>User</th>
+            <th>Comment</th>
+            <th>Time</th>
+
 			<th>Edit Rooms</th>
 			</tr>
 			";
 			while ($row=mysqli_fetch_assoc($result)) {
 				echo "<tr>
-						<td>".$row['category_id']."</td>
-						<td>".$row['name']."</td>                      
-                        <td>".$row['description']."</td>
-						
+						<td>".$row['room_name']."</td>
+                        <td>".$row['firstname']."</td>
+						<td>".$row['comment_text']."</td>
+                        <td>".$row['comment_date']."</td>
+
+
                             <td>
                            
-                                <a href='admin_edit_directory.php?category_id=".$row['category_id']."'><button type='button'>Edit</button></a>
-                                <a href='admin_delete_directory.php?category_id=".$row['category_id']."'><button type='button'>Delete</button></a>
+                               
+                                <a href='admin_delete_comment.php?comment_id=".$row['comment_id']."'><button type='button'>Delete</button></a>
                             </td>
-						
 					  </tr>";
 			}
 		}

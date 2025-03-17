@@ -2,15 +2,19 @@
 <html>
 <body>
 	<?php
-	$category_id=$_GET['category_id'];
+	$comment_id=$_GET['comment_id'];
 	$conn=mysqli_connect("localhost","root","","hotel");
 	if(!$conn)
 	{
 		die("Can't connect".mysqli_connect_error());
 	}
-	$sql="DELETE FROM category WHERE category_id=$category_id";
+
+    
+	$sql="DELETE FROM comment WHERE comment_id=$comment_id";
+
+    
 	if (mysqli_query($conn,$sql)) {
-		header("location:edit_room_directory.php");
+		header("location:admin_comment.php");
 	}
 	else
 	{

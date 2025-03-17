@@ -1,0 +1,52 @@
+/* Phần thống kê phòng */
+.room-statistics {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề của phần thống kê */
+.room-statistics h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Nội dung thống kê */
+.statistics-content {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Dòng thống kê cụ thể */
+.statistics-content p {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Làm nổi bật các thông tin quan trọng */
+.statistics-content strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Trường hợp không có dữ liệu */
+.statistics-content p.no-data {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Tạo khoảng cách giữa footer và thống kê */
+footer {
+    margin-top: 30px;
+}
